@@ -1,0 +1,25 @@
+Name: Steal2Shoot5Bump
+Starting Location: Facing towards drivers, middle of bot on init line, aligned left/right with the trench balls
+Push Start Location (x,y,h): (509.2, 297.0, 180)
+What it does: Spins up shooter, drives forward off the init line and steals two balls, drives to the front of the power port and shoots 5
+Revision: 9/22/20
+Confidence: Unsure
+*
+DriveWait=time_delay,-1,1;
+DrivePath=1.5,5,5000,PathToStealBalls,normal;
+DriveWait=time_delay,250,1;
+DrivePath=5,10,9000,PathFromStealBalls,normal;
+DriveWait=balls_shot,-1,5;
+DriveEnd=;
+*=;
+ManipWait=time_delay,-1,1;
+ManipIntake=;
+ManipWait=drive_step,3,1;
+ManipIntake=;
+ManipWait=drive_step,4,1;
+ManipAutoTarget=1;
+ManipBumpIntake=1;
+ManipWait=balls_shot,-1,5;
+ManipBumpIntake=0;
+ManipAutoTarget=0;
+ManipEnd=;

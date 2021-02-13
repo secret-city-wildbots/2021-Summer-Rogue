@@ -1,0 +1,13 @@
+Name: TestAutoFailure
+Starting Location: Can start anywhere legal with middle of robot on initiation line
+Push Start Location (x,y,h): (509.2, measured distance from your alliance's trench wall, 0 or 180)
+Number of balls to start: Any 
+What it does: Spins up shooter and triggers an autonomous failure for testing purposes
+Revision: 9/22/20
+Confidence: Very confident in failure
+*
+DriveWait=time_delay,hello,1;
+DriveEnd=;
+*=;
+ManipWait=time_delay,-1,1;
+ManipEnd=;
