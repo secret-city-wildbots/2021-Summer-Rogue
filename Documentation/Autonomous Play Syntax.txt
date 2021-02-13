@@ -16,14 +16,6 @@ DriveWait=mode,param1,param2;
 1. Wait for the subsystem sequencer to reach the specified step.
 2. Dummy parameter, set to 1.
 
->> time_since_shooter
-1. Wait for the time specified in milliseconds, measured from the time the shooter starts shooting.
-2. Dummy parameter, set to 1.
-
->> balls_shot
-1. Wait for the number of balls shot in the current shooting session to reach the specified number.
-2. Timeout specified in milliseconds,  measured from the time the shooter starts shooting, set to -1 to ignore.
-
 -----------------------------------------------------------
 
 DriveDistanceX=param1,param2;
@@ -119,14 +111,6 @@ ManipWait=mode,param1,param2;
 >> dist_from_end
 1. Wait for the robot to be closer than the specified distance (in) from the end of the current path.
 2. Dummy parameter, set to 1.
-
->> time_since_shooter
-1. Wait for the time specified in milliseconds, measured from the time the shooter starts shooting.
-2. Dummy parameter, set to 1.
-
->> balls_shot
-1. Wait for the number of balls shot in the current shooting session to reach the specified number.
-2. Timeout specified in milliseconds,  measured from the time the shooter starts shooting, set to -1 to ignore.
 
 -----------------------------------------------------------
 
