@@ -5,3 +5,11 @@
 > New swerve heading lock logic
 
 > LIDAR angle and offset code
+
+
+> strafing right instead of going forward
+> Pete strafing left as if module 2 was out
+> Pete turning on its own; turning more with lock off
+> battery draining quickly
+
+> upload new autonomous paths
