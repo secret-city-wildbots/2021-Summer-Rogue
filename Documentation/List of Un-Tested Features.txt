@@ -1,15 +1,22 @@
+> Changes to the low-level swerve module command architecture
+
 > New path following algorithm
 > Change the "force human" button logic
 > Individual PID parameters for each azimuth motor
 > Swerve ground speed calculation
 > New swerve heading lock logic
+> Pressure transducer bypass fix
+
+> need upload new autonomous paths
 
 > LIDAR angle and offset code
 
-
+--- Rogue feedback on 2/6
 > strafing right instead of going forward
+
+--- Pete feedback on 2/13
 > Pete strafing left as if module 2 was out
 > Pete turning on its own; turning more with lock off
 > battery draining quickly
 
-> upload new autonomous paths
+

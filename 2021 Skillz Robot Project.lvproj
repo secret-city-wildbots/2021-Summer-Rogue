@@ -282,10 +282,14 @@ AddOutputFilter chunkFilter
 			<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
 		</Item>
+		<Item Name="DriveStateController2.vi" Type="VI" URL="../DriveStateController2.vi"/>
 		<Item Name="MasterRobotModeController.vi" Type="VI" URL="../MasterRobotModeController.vi"/>
 		<Item Name="MasterStateController.vi" Type="VI" URL="../MasterStateController.vi"/>
+		<Item Name="OutputSwerveAzimuth2.vi" Type="VI" URL="../OutputSwerveAzimuth2.vi"/>
+		<Item Name="OutputSwerveDrive2.vi" Type="VI" URL="../OutputSwerveDrive2.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="SwerveModifyDriveCommand.vi" Type="VI" URL="../SwerveModifyDriveCommand.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
