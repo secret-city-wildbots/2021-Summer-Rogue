@@ -182,8 +182,8 @@ AddOutputFilter chunkFilter
 			<Item Name="OutputDecorations.vi" Type="VI" URL="../OutputDecorations.vi"/>
 			<Item Name="OutputIntake.vi" Type="VI" URL="../OutputIntake.vi"/>
 			<Item Name="OutputLimeLight.vi" Type="VI" URL="../OutputLimeLight.vi"/>
-			<Item Name="OutputSwerveAzimuth.vi" Type="VI" URL="../OutputSwerveAzimuth.vi"/>
-			<Item Name="OutputSwerveDrive.vi" Type="VI" URL="../OutputSwerveDrive.vi"/>
+			<Item Name="OutputSwerveAzimuth2.vi" Type="VI" URL="../OutputSwerveAzimuth2.vi"/>
+			<Item Name="OutputSwerveDrive2.vi" Type="VI" URL="../OutputSwerveDrive2.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Robot Pose and Targeting" Type="Folder">
@@ -219,10 +219,11 @@ AddOutputFilter chunkFilter
 				<Item Name="SwerveJoystickStrafeScaling.vi" Type="VI" URL="../SwerveJoystickStrafeScaling.vi"/>
 				<Item Name="SwerveKinematics.vi" Type="VI" URL="../SwerveKinematics.vi"/>
 				<Item Name="SwerveLatchGoalAngle.vi" Type="VI" URL="../SwerveLatchGoalAngle.vi"/>
+				<Item Name="SwerveModifyDriveCommand.vi" Type="VI" URL="../SwerveModifyDriveCommand.vi"/>
 			</Item>
 			<Item Name="DecideWhenToShift.vi" Type="VI" URL="../DecideWhenToShift.vi"/>
 			<Item Name="DriveModeController.vi" Type="VI" URL="../DriveModeController.vi"/>
-			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
+			<Item Name="DriveStateController2.vi" Type="VI" URL="../DriveStateController2.vi"/>
 			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Intake" Type="Folder">
@@ -282,14 +283,10 @@ AddOutputFilter chunkFilter
 			<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
 		</Item>
-		<Item Name="DriveStateController2.vi" Type="VI" URL="../DriveStateController2.vi"/>
 		<Item Name="MasterRobotModeController.vi" Type="VI" URL="../MasterRobotModeController.vi"/>
 		<Item Name="MasterStateController.vi" Type="VI" URL="../MasterStateController.vi"/>
-		<Item Name="OutputSwerveAzimuth2.vi" Type="VI" URL="../OutputSwerveAzimuth2.vi"/>
-		<Item Name="OutputSwerveDrive2.vi" Type="VI" URL="../OutputSwerveDrive2.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="SwerveModifyDriveCommand.vi" Type="VI" URL="../SwerveModifyDriveCommand.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
