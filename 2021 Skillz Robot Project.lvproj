@@ -182,8 +182,8 @@ AddOutputFilter chunkFilter
 			<Item Name="OutputDecorations.vi" Type="VI" URL="../OutputDecorations.vi"/>
 			<Item Name="OutputIntake.vi" Type="VI" URL="../OutputIntake.vi"/>
 			<Item Name="OutputLimeLight.vi" Type="VI" URL="../OutputLimeLight.vi"/>
-			<Item Name="OutputSwerveAzimuth2.vi" Type="VI" URL="../OutputSwerveAzimuth2.vi"/>
-			<Item Name="OutputSwerveDrive2.vi" Type="VI" URL="../OutputSwerveDrive2.vi"/>
+			<Item Name="OutputSwerveAzimuth.vi" Type="VI" URL="../OutputSwerveAzimuth.vi"/>
+			<Item Name="OutputSwerveDrive.vi" Type="VI" URL="../OutputSwerveDrive.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Robot Pose and Targeting" Type="Folder">
@@ -223,7 +223,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="DecideWhenToShift.vi" Type="VI" URL="../DecideWhenToShift.vi"/>
 			<Item Name="DriveModeController.vi" Type="VI" URL="../DriveModeController.vi"/>
-			<Item Name="DriveStateController2.vi" Type="VI" URL="../DriveStateController2.vi"/>
+			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
 			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Intake" Type="Folder">
@@ -308,7 +308,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Create Actual Table Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Create Actual Table Name.vi"/>
 				<Item Name="CTRE_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Error/CTRE_ErrorHandle.vi"/>
 				<Item Name="CTRE_LibraryCall_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Error/CTRE_LibraryCall_ErrorHandle.vi"/>
-				<Item Name="CTRE_Phoenix_MotorControl_ConfigClosedLoopConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Closed Loop/CTRE_Phoenix_MotorControl_ConfigClosedLoopConstants.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigClosedLoopRamp.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Output Config/CTRE_Phoenix_MotorControl_ConfigClosedLoopRamp.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigOpenLoopRamp.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Output Config/CTRE_Phoenix_MotorControl_ConfigOpenLoopRamp.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigSelectedFeedbackSensor_TalonFX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_ConfigSelectedFeedbackSensor_TalonFX.vi"/>
