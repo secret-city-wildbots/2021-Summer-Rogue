@@ -1,7 +1,2 @@
-> New swerve heading lock logic (hysteresis)
->Drive command to motor power
->recheck autonomous paths
-
-> need to upload new autonomous paths
 
 > LIDAR angle and offset code
