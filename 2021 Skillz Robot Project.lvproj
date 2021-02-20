@@ -211,7 +211,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Subsystem Drive" Type="Folder">
 			<Item Name="Swerve Toolbox" Type="Folder">
-				<Item Name="DriveCommandToMotorPower.vi" Type="VI" URL="../DriveCommandToMotorPower.vi"/>
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
 				<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
 				<Item Name="SwerveChooseCenter.vi" Type="VI" URL="../SwerveChooseCenter.vi"/>
@@ -223,6 +223,7 @@ AddOutputFilter chunkFilter
 				<Item Name="SwerveModifyDriveCommand.vi" Type="VI" URL="../SwerveModifyDriveCommand.vi"/>
 			</Item>
 			<Item Name="DecideWhenToShift.vi" Type="VI" URL="../DecideWhenToShift.vi"/>
+			<Item Name="DriveCommandToMotorPower.vi" Type="VI" URL="../DriveCommandToMotorPower.vi"/>
 			<Item Name="DriveModeController.vi" Type="VI" URL="../DriveModeController.vi"/>
 			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
 			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
