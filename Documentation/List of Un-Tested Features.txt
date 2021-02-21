@@ -1,2 +1,4 @@
+> Driver profile modifications (max speed settings)
+> Lamprey one-time calibration helper code
 
 > LIDAR angle and offset code

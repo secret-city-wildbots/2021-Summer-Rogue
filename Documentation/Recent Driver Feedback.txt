@@ -6,4 +6,9 @@
 > Pete turning on its own; turning more with lock off
 > battery draining quickly
 
+--- Pete on 2/20
+> TeleOp code was working well
+> Power utilization seemed reasonable
+> We need to tune the decceleration hysteresis as oppsed to just disabling it
+
 
