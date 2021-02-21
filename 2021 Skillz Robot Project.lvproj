@@ -202,6 +202,7 @@ AddOutputFilter chunkFilter
 			<Item Name="GetLIDAR.vi" Type="VI" URL="../GetLIDAR.vi"/>
 			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
 			<Item Name="GetPigeonIMU.vi" Type="VI" URL="../GetPigeonIMU.vi"/>
+			<Item Name="GetShifterState.vi" Type="VI" URL="../GetShifterState.vi"/>
 			<Item Name="GetSimulatedIMU.vi" Type="VI" URL="../GetSimulatedIMU.vi"/>
 			<Item Name="GetSimulatedPressure.vi" Type="VI" URL="../GetSimulatedPressure.vi"/>
 			<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
