@@ -1,6 +1,3 @@
-> driver profile modifications (max speed settings)
-> Lamprey one-time calibration helper code
 > all shifter code
-> must touch points in auto
 
 > LIDAR angle and offset code
