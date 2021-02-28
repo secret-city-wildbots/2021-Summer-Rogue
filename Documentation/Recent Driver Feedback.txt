@@ -11,4 +11,7 @@
 > Power utilization seemed reasonable
 > We need to tune the decceleration hysteresis as oppsed to just disabling it
 
+---The Child on 2/27
+> There were problems with the drive Falcon on Module #3 that were causing all sorts of driving problems.
+
 
