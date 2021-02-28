@@ -1,0 +1,14 @@
+Name: TuneRotationPID
+Starting Location: Against the front wall as close to the door as possible
+Push Start Location (x,y,h): (165, 160, 0.0)
+What it does: Runs a shop-sized path for tuning the rotation PID
+Revision: 2/27/21
+Confidence: unsure
+*
+DriveWait=time_delay,-1,1;
+DrivePath=2,5,-1,TunePathRotationPID,normal;
+DriveEnd=;
+*=;
+ManipWait=time_delay,-1,1;
+ManipIntake=;
+ManipEnd=;

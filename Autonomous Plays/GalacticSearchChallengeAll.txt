@@ -1,0 +1,14 @@
+Name: GalacticSearchAll
+Starting Location: Right front start zone
+Push Start Location (x,y,h): (150, 90, 0.0)
+What it does: runs both galactic search paths with both colors
+Revision: 2/27/21
+Confidence: unsure
+*
+DriveWait=time_delay,-1,1;
+DrivePath=2,5,-1,GalacticSearchAll,normal;
+DriveEnd=;
+*=;
+ManipWait=time_delay,-1,1;
+ManipIntake=;
+ManipEnd=;
