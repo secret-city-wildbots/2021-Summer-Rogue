@@ -14,4 +14,6 @@
 ---The Child on 2/27
 > There were problems with the drive Falcon on Module #3 that were causing all sorts of driving problems.
 
-
+---The Child on 3/1
+> Can accelerate faster at start of auto plays
+> Dramatically widen the stop critera for the ends of most of the paths
