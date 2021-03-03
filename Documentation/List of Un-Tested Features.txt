@@ -1,3 +1,4 @@
 > all shifter code
-
+>pneumatic ports and limit switch ports are wrong
+>disconnected alarms for shifter states
 > LIDAR angle and offset code
