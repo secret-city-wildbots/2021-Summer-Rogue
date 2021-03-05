@@ -2,11 +2,11 @@ Name: TestBouncePath
 Starting Location: Middle front of start zone
 Push Start Location (x,y,h): (180, 162, 270.0)
 What it does: Tests the bounce path 
-Revision: 2/25/21
+Revision: 3/4/21
 Confidence: unsure
 *
 DriveWait=time_delay,-1,1;
-DrivePath=2,5,-1,BouncePath,normal;
+DrivePath=5,5,-1,BouncePath,normal;
 DriveEnd=;
 *=;
 ManipWait=time_delay,-1,1;
