@@ -1,2 +1,7 @@
-> shifter solenoid ports and limit switch ports are wrong
+> removal of the default FIRST global variable
+
+> shifter solenoid ports and limit switch ports are wrong (configured for testing)
+
+
+
 > LIDAR angle and offset code
