@@ -132,10 +132,3 @@ ManipAutoTarget=param1;
 1. Set to 0 to exit auto-targeting, set to 1 to enter auto-targeting.
 
 -----------------------------------------------------------
-
-ManipBumpIntake=param1;
-# This VI starts or stops the intake bumping sequence.
-
-1. Set to 0 to stop bumping the intake, set to 1 to start bumping the intake.
-
------------------------------------------------------------
