@@ -1,8 +1,15 @@
+> Ki for the heading lock has not been tuned yet
 > removal of the default FIRST global variable
->getpipe laggy
->current code doesn't scale with lamprey encoder
+> current azimuth code doesn't scale properly with lamprey encoder, try multiplying by 3.3/5.0 ?
+> LimeLight's "getpipe" API appears to be super laggy
+> need to tune the LimeLight pipeline latency
+
+
 
 > shifter solenoid ports and limit switch ports are wrong (configured for testing)
+> swerve module gearings are wrong (configured for testing, not for shifting swerve)
+> LimeLight heights and angles are wrong (still configured for Rogue and not The Child)
+
 
 
 
