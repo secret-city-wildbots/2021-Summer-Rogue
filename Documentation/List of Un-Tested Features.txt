@@ -1,4 +1,6 @@
 > removal of the default FIRST global variable
+>getpipe laggy
+>current code doesn't scale with lamprey encoder
 
 > shifter solenoid ports and limit switch ports are wrong (configured for testing)
 
