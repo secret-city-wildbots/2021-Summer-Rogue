@@ -194,6 +194,7 @@ AddOutputFilter chunkFilter
 				<Item Name="VisionPnPPose.vi" Type="VI" URL="../VisionPnPPose.vi"/>
 				<Item Name="VisionRangingPose.vi" Type="VI" URL="../VisionRangingPose.vi"/>
 			</Item>
+			<Item Name="ChoosePath.vi" Type="VI" URL="../ChoosePath.vi"/>
 			<Item Name="ConvertFalconDriveEncoders.vi" Type="VI" URL="../ConvertFalconDriveEncoders.vi"/>
 			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
