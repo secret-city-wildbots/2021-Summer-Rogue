@@ -1,10 +1,8 @@
 > removes the auto bump intake logic as it is no longer needed
-> minor tweaks to the camera state controller
 > Ki for the heading lock has not been tuned yet
-> removal of the default FIRST global variable
 > current azimuth code doesn't scale properly with lamprey encoder, try multiplying by 3.3/5.0 ?
-> LimeLight's "getpipe" API appears to be super laggy
-> need to tune the LimeLight pipeline latency
+> need to tune the LimeLight pipeline latency (servo)
+> LimeLight latency with getpipe magically disappeared but could come back
 
 
 
