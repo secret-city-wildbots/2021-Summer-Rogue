@@ -1,8 +1,8 @@
-> removes the auto bump intake logic as it is no longer needed
 > Ki for the heading lock has not been tuned yet
 > current azimuth code doesn't scale properly with lamprey encoder, try multiplying by 3.3/5.0 ?
 > need to tune the LimeLight pipeline latency (servo)
 > LimeLight latency with getpipe magically disappeared but could come back
+> LimeLight distance to ball calculations
 
 
 
