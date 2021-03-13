@@ -6,9 +6,11 @@ Revision: 3/11/21
 Confidence: unsure
 *
 DriveWait=time_delay,-1,1;
+DriveWait=time_delay,1000,1;
 DrivePath=2,5,-1,GalacticSearch_BlueA,normal;
 DriveEnd=;
 *=;
 ManipWait=time_delay,-1,1;
 ManipIntake=;
+ManipWait=time_delay,1000,1;
 ManipEnd=;

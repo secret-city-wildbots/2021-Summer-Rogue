@@ -6,7 +6,7 @@ Revision: 3/4/21
 Confidence: unsure
 *
 DriveWait=time_delay,-1,1;
-DrivePath=5,5,-1,BarrelRacing,normal;
+DrivePath=10,5,-1,BarrelRacing,normal;
 DriveEnd=;
 *=;
 ManipWait=time_delay,-1,1;
