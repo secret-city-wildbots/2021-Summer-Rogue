@@ -1,4 +1,4 @@
-> Ki for the heading lock has not been tuned yet
+> the heading lock algorithm is still not working as well as we want it to
 > current azimuth code doesn't scale properly with lamprey encoder, try multiplying by 3.3/5.0 ?
 > need to tune the LimeLight pipeline latency (servo)
 > LimeLight latency with getpipe magically disappeared but could come back
@@ -12,5 +12,5 @@
 
 
 
-
+> defensive driving behavior is not intuitive for the driver
 > LIDAR angle and offset code
