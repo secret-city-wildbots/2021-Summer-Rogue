@@ -1,11 +1,10 @@
 > the heading lock algorithm is still not working as well as we want it to
-> current azimuth code doesn't scale properly with lamprey encoder, try multiplying by 3.3/5.0 ?
 > need to tune the LimeLight pipeline latency (servo)
 > LimeLight latency with getpipe magically disappeared but could come back
 > LimeLight distance to ball calculations
 
 
-
+> Lamprey encoder direction (CW vs. CCW) needs to be inverted
 > shifter solenoid ports and limit switch ports are wrong (configured for testing)
 > swerve module gearings are wrong (configured for testing, not for shifting swerve)
 > LimeLight heights and angles are wrong (still configured for Rogue and not The Child)
