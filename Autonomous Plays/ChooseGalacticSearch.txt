@@ -6,6 +6,7 @@ Revision: 3/11/21
 Confidence: very unsure
 *
 DriveWait=time_delay,-1,1;
+DriveWait=time_delay,2000,1;
 DrivePath=2,5,-1,GalacticSearch,robot_suffix;
 DriveEnd=;
 *=;
