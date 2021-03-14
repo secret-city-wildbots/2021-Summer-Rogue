@@ -1,6 +1,7 @@
-Green Heartbeat - robot disabled
+*** - robot disabled
 Solid Blue - robot is in field-oriented drive mode
 Solid Pink - robot is in robot-oriented drive mode
-Solid Red - master caution alarm
-Rainbow Sparkle - Human Player signal
-Off - robot is diverting power to critical subsystem
+Solid Orange - robot is running autonomously
+Blinking Red - master caution alarm
+*** - robot is diverting power to critical subsystem
+Blinking Green - Human Player signal

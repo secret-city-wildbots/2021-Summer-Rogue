@@ -2,6 +2,7 @@
 > need to tune the LimeLight pipeline latency (servo)
 > LimeLight latency with getpipe magically disappeared but could come back
 > LimeLight distance to ball calculations
+> the new LED code
 
 
 > Lamprey encoder direction (CW vs. CCW) needs to be inverted
