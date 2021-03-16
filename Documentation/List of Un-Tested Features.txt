@@ -1,4 +1,6 @@
+> new azimuth encoder seeding code behavior when a module is re-calibrated (also new subvi)
 > the heading lock algorithm is still not working as well as we want it to
+
 > need to tune the LimeLight pipeline latency (servo)
 > LimeLight latency with getpipe magically disappeared but could come back
 > LimeLight distance to ball calculations
