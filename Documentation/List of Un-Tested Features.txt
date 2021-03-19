@@ -1,5 +1,3 @@
-> new azimuth encoder seeding code behavior when a module is re-calibrated (also new subvi)
-> the heading lock algorithm is still not working as well as we want it to
 
 > need to tune the LimeLight pipeline latency (servo)
 > LimeLight latency with getpipe magically disappeared but could come back
@@ -7,9 +5,7 @@
 > the new LED code
 
 
-> Lamprey encoder direction (CW vs. CCW) needs to be inverted
 > shifter solenoid ports and limit switch ports are wrong (configured for testing)
-> swerve module gearings are wrong (configured for testing, not for shifting swerve)
 > LimeLight heights and angles are wrong (still configured for Rogue and not The Child)
 
 
