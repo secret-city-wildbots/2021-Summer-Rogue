@@ -1,7 +1,20 @@
-*** - robot disabled
-Solid Blue - robot is in field-oriented drive mode
-Solid Pink - robot is in robot-oriented drive mode
-Solid Orange - robot is running autonomously
-Blinking Red - master caution alarm
-*** - robot is diverting power to critical subsystem
+------------------------------------------------------------
+Red Chaser - Master Caution Alarm
+Green Chaser - nominal
+Off Chaser - robot is diverting power to critical subsystem
+------------------------------------------------------------
+Light Blue - field-oriented drive mode
+Yellow - robot-oriented drive mode
+Pink - robot is running autonomously
+Off - robot is diverting power to critical subsystem
 Blinking Green - Human Player signal
+Rainbow - party mode
+------------------------------------------------------------
+
+
+
+
+
+
+
+

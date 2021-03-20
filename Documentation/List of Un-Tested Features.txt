@@ -2,7 +2,6 @@
 > need to tune the LimeLight pipeline latency (servo)
 > LimeLight latency with getpipe magically disappeared but could come back
 > LimeLight distance to ball calculations
-> the new LED code
 
 
 > shifter solenoid ports and limit switch ports are wrong (configured for testing)
