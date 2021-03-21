@@ -1,3 +1,5 @@
+> shifter stutter (full stack)
+
 
 > need to tune the LimeLight pipeline latency (servo)
 > LimeLight latency with getpipe magically disappeared but could come back

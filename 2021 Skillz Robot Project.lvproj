@@ -228,6 +228,7 @@ AddOutputFilter chunkFilter
 			<Item Name="DriveModeController.vi" Type="VI" URL="../DriveModeController.vi"/>
 			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
 			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
+			<Item Name="StutterShifterState.vi" Type="VI" URL="../StutterShifterState.vi"/>
 		</Item>
 		<Item Name="Subsystem Intake" Type="Folder">
 			<Item Name="IntakeStateController.vi" Type="VI" URL="../IntakeStateController.vi"/>
