@@ -1,15 +1,13 @@
 > shifter stutter (full stack)
 
-
-> need to tune the LimeLight pipeline latency (servo)
-> LimeLight latency with getpipe magically disappeared but could come back
-> LimeLight distance to ball calculations
-
-
 > shifter solenoid ports and limit switch ports are wrong (configured for testing)
 > LimeLight heights and angles are wrong (still configured for Rogue and not The Child)
 
 
+> need to tune the LimeLight pipeline latency (servo)
+> LimeLight latency with getpipe magically disappeared but could come back
+> LimeLight and LIDAR angles and vertical offsets need to be fixed/integrated with servo control
+> LimeLight distance to ball calculations
+
 
 > defensive driving behavior is not intuitive for the driver
-> LIDAR angle and offset code
