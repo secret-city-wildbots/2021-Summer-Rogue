@@ -237,6 +237,7 @@ AddOutputFilter chunkFilter
 			<Item Name="CameraStateController.vi" Type="VI" URL="../CameraStateController.vi"/>
 			<Item Name="EmergencyPowerStateController.vi" Type="VI" URL="../EmergencyPowerStateController.vi"/>
 			<Item Name="LEDStateController.vi" Type="VI" URL="../LEDStateController.vi"/>
+			<Item Name="SwerveDebugColor.vi" Type="VI" URL="../SwerveDebugColor.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="GetRefNumFast" Type="Folder">
