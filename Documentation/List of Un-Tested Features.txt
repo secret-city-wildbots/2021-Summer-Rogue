@@ -1,7 +1,8 @@
 > shifter stutter (full stack)
 > joystick button switch
 
-> shifter solenoid ports and limit switch ports are wrong (configured for testing)
+> The LED state controller needs cleaned up and commented
+
 > LimeLight heights and angles are wrong (still configured for Rogue and not The Child)
 
 

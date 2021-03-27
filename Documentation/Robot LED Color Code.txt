@@ -8,7 +8,6 @@ Yellow - robot-oriented drive mode
 Pink - robot is running autonomously
 Off - robot is diverting power to critical subsystem
 Blinking Green - Human Player signal
-Rainbow - party mode
 ------------------------------------------------------------
 
 
