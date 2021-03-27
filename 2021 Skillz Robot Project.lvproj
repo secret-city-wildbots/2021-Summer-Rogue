@@ -234,8 +234,10 @@ AddOutputFilter chunkFilter
 			<Item Name="IntakeStateController.vi" Type="VI" URL="../IntakeStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Miscellaneous " Type="Folder">
+			<Item Name="BatteryDebugColor.vi" Type="VI" URL="../BatteryDebugColor.vi"/>
 			<Item Name="CameraStateController.vi" Type="VI" URL="../CameraStateController.vi"/>
 			<Item Name="EmergencyPowerStateController.vi" Type="VI" URL="../EmergencyPowerStateController.vi"/>
+			<Item Name="LEDModeController.vi" Type="VI" URL="../LEDModeController.vi"/>
 			<Item Name="LEDStateController.vi" Type="VI" URL="../LEDStateController.vi"/>
 			<Item Name="SwerveDebugColor.vi" Type="VI" URL="../SwerveDebugColor.vi"/>
 		</Item>
@@ -811,7 +813,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">97</Property>
+				<Property Name="Bld_version.build" Type="Int">98</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
