@@ -234,8 +234,8 @@ AddOutputFilter chunkFilter
 			<Item Name="IntakeStateController.vi" Type="VI" URL="../IntakeStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Miscellaneous " Type="Folder">
-			<Item Name="BatteryDebugColor.vi" Type="VI" URL="../BatteryDebugColor.vi"/>
 			<Item Name="CameraStateController.vi" Type="VI" URL="../CameraStateController.vi"/>
+			<Item Name="DebugColor.vi" Type="VI" URL="../DebugColor.vi"/>
 			<Item Name="EmergencyPowerStateController.vi" Type="VI" URL="../EmergencyPowerStateController.vi"/>
 			<Item Name="LEDModeController.vi" Type="VI" URL="../LEDModeController.vi"/>
 			<Item Name="LEDStateController.vi" Type="VI" URL="../LEDStateController.vi"/>
