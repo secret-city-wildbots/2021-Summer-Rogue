@@ -1,11 +1,11 @@
-> shifter stutter (full stack)
-> joystick button switch
+> New odometry code *****
 
-> The LED state controller needs cleaned up and commented
+> Swerve LED brightness not working
+> bug with the robot booting up into LED party mode
+
+> Lamprey code is currently disconnected because the Lamprey calibrations are failing
 
 > LimeLight heights and angles are wrong (still configured for Rogue and not The Child)
-
-
 > need to tune the LimeLight pipeline latency (servo)
 > LimeLight latency with getpipe magically disappeared but could come back
 > LimeLight and LIDAR angles and vertical offsets need to be fixed/integrated with servo control
