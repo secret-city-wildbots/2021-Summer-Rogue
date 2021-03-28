@@ -1,7 +1,4 @@
-> New odometry code *****
-
-> Swerve LED brightness not working
-> bug with the robot booting up into LED party mode
+> New odometry code can be cleaned up
 
 > Lamprey code is currently disconnected because the Lamprey calibrations are failing
 

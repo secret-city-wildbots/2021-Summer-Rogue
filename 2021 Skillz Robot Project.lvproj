@@ -190,9 +190,9 @@ AddOutputFilter chunkFilter
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
 				<Item Name="FuseTargeting.vi" Type="VI" URL="../FuseTargeting.vi"/>
 				<Item Name="LIDARRangingPose.vi" Type="VI" URL="../LIDARRangingPose.vi"/>
-				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 				<Item Name="VisionPnPPose.vi" Type="VI" URL="../VisionPnPPose.vi"/>
 				<Item Name="VisionRangingPose.vi" Type="VI" URL="../VisionRangingPose.vi"/>
+				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 			</Item>
 			<Item Name="ChoosePath.vi" Type="VI" URL="../ChoosePath.vi"/>
 			<Item Name="ConvertFalconDriveEncoders.vi" Type="VI" URL="../ConvertFalconDriveEncoders.vi"/>
@@ -296,7 +296,6 @@ AddOutputFilter chunkFilter
 		<Item Name="MasterStateController.vi" Type="VI" URL="../MasterStateController.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="SwerveModuleOdometry2.vi" Type="VI" URL="../SwerveModuleOdometry2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
