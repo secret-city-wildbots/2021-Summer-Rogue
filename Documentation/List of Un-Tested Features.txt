@@ -1,13 +1,15 @@
-> New odometry code can be cleaned up
+> New odometry code *****
+
+> Swerve LED brightness not working
+> bug with the robot booting up into LED party mode
 
 > Lamprey code is currently disconnected because the Lamprey calibrations are failing
-
-> Network table flush command does not seem to work with the 2021 roborio image
 
 > LimeLight heights and angles are wrong (still configured for Rogue and not The Child)
 > need to tune the LimeLight pipeline latency (servo)
 > LimeLight latency with getpipe magically disappeared but could come back
 > LimeLight and LIDAR angles and vertical offsets need to be fixed/integrated with servo control
 > LimeLight distance to ball calculations
+
 
 > defensive driving behavior is not intuitive for the driver
