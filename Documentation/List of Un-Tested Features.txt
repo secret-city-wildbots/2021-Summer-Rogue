@@ -1,15 +1,15 @@
-> New odometry code *****
-
-> Swerve LED brightness not working
-> bug with the robot booting up into LED party mode
+> new LED party mode
+> shorter chaser in low power
+> NT flush boot up fix
+> Falcon brake/coast mode trigger update change
 
 > Lamprey code is currently disconnected because the Lamprey calibrations are failing
+> pose code could be cleaned up to remove Falcon position reads
 
 > LimeLight heights and angles are wrong (still configured for Rogue and not The Child)
 > need to tune the LimeLight pipeline latency (servo)
 > LimeLight latency with getpipe magically disappeared but could come back
 > LimeLight and LIDAR angles and vertical offsets need to be fixed/integrated with servo control
 > LimeLight distance to ball calculations
-
 
 > defensive driving behavior is not intuitive for the driver

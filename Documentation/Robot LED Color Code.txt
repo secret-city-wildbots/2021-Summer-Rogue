@@ -1,7 +1,6 @@
 ------------------------------------------------------------
 Red Chaser - Master Caution Alarm
 Green Chaser - nominal
-Off Chaser - robot is diverting power to critical subsystem
 ------------------------------------------------------------
 Light Blue - field-oriented drive mode
 Yellow - robot-oriented drive mode
