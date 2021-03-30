@@ -1,7 +1,4 @@
-> new LED party mode
-> shorter chaser in low power
-> NT flush boot up fix
-> Falcon brake/coast mode trigger update change
+
 
 > Lamprey code is currently disconnected because the Lamprey calibrations are failing
 > pose code could be cleaned up to remove Falcon position reads
