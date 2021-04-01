@@ -1,6 +1,6 @@
 Name: BarrelRacing
-Starting Location: Middle front of start zone
-Push Start Location (x,y,h): (180, 162, 0.0)
+Starting Location: Middle front of start zone, 6 inches to the left
+Push Start Location (x,y,h): (180, 168, 0.0)
 What it does: Tests the barrel racing path 
 Revision: 3/4/21
 Confidence: unsure
