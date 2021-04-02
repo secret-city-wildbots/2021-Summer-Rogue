@@ -11,4 +11,6 @@ DriveEnd=;
 *=;
 ManipWait=time_delay,-1,1;
 ManipIntake=;
+ManipWait=dist_from_end,70,1;
+ManipIntake=;
 ManipEnd=;
