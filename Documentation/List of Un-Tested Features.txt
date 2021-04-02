@@ -1,4 +1,5 @@
-
+Tested: SlalomWorking, Galactic Search Red A, Bounce, Barrel Racing
+Untested: Slalom (has new changes), RedB, BlueA, BlueB
 
 > Lamprey code is currently disconnected because the Lamprey calibrations are failing
 > pose code could be cleaned up to remove Falcon position reads
