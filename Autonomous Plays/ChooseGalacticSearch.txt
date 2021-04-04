@@ -1,12 +1,12 @@
 Name: ChooseGalacticSearch
-Starting Location: Middle of robot on init line, facing the oppposing alliance wall, 50 inches from our trench wall to center of bot
-Push Start Location (x,y,h): (149, 162, 0.0)
+Starting Location: back of robot on init line, facing the oppposing alliance wall, 50 inches from our trench wall to center of bot
+Push Start Location (x,y,h): (175, 169.5, 0.0)
 What it does: Chooses and runs galactic search path
 Revision: 3/11/21
 Confidence: very unsure
 *
 DriveWait=time_delay,-1,1;
-DrivePath=2,5,-1,GalacticSearch,robot_suffix;
+DrivePath=10,25,-1,GalacticSearch,robot_suffix;
 DriveEnd=;
 *=;
 ManipWait=time_delay,-1,1;
