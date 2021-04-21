@@ -3,7 +3,8 @@ Untested: Slalom (has new changes), RedB, BlueA, BlueB
 
 > Lamprey code is currently disconnected because the Lamprey calibrations are failing
 > pose code could be cleaned up to remove Falcon position reads
->merged pose tweaks
+> merged pose tweaks
+> shooter code
 
 > LimeLight heights and angles are wrong (still configured for Rogue and not The Child)
 > need to tune the LimeLight pipeline latency (servo)
