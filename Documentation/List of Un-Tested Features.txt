@@ -28,6 +28,7 @@
 > missing climber release piston code
 > missing climber PTO code
 
+> configure robot profiles as needed
 > need to tune all drive code
 > defensive driving behavior is not intuitive for the driver
 
