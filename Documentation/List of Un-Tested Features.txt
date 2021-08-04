@@ -1,15 +1,47 @@
-Tested: SlalomWorking, Galactic Search Red A, Bounce, Barrel Racing
-Untested: Slalom (has new changes), RedB, BlueA, BlueB
+> confirm all sensor port numbers (spreadsheet)
+> confirm all actuator port numbers (spreadsheet)
 
-> Lamprey code is currently disconnected because the Lamprey calibrations are failing
-> pose code could be cleaned up to remove Falcon position reads
-> merged pose tweaks
-> shooter code
+> test velocity averaging in pose code
+> test Lamprey "has reset occured?" functionality
 
-> LimeLight heights and angles are wrong (still configured for Rogue and not The Child)
-> need to tune the LimeLight pipeline latency (servo)
-> LimeLight latency with getpipe magically disappeared but could come back
-> LimeLight and LIDAR angles and vertical offsets need to be fixed/integrated with servo control
-> LimeLight distance to ball calculations
+> LimeLight and LIDAR angles and vertical offsets need to be measured 
 
+> test shooter output code
+> tune shooter PID
+> test kicker output code (currently configured for a Falcon)
+> tune kicker PID
+
+> status of shooter and cowl state controller is unknown
+
+> confirm all shooting-related tablet overrides are functional
+> send all subsystem data to dashboard
+> receive all subsystem data from dashboard
+> send shooting-related haptic feedback
+
+> confirm that all shooting-related manipulator controls are reset in auto init
+> confirm that all shooting-related autononomous controls are reset in auto init
+> need balls shot wait in auto (with time since shooting timeout)
+> create MC Rogue autoplays
+
+
+> missing climb sequencer
+> missing climber release piston code
+> missing climber PTO code
+
+> need to tune all drive code
 > defensive driving behavior is not intuitive for the driver
+
+> missing dashboard error reporting for multiple subsystems
+> missing automated systems check
+
+
+
+
+> LimeLight ball tracking code is in place but disabled
+
+
+
+
+
+
+
