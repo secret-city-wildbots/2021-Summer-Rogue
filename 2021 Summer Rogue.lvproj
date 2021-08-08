@@ -98,7 +98,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Autonomous" Type="Folder">
 			<Item Name="Drive Sequencer" Type="Folder">
-				<Item Name="Support" Type="Folder">
+				<Item Name="Path Follower" Type="Folder">
 					<Item Name="AutoFeedForwardConversion.vi" Type="VI" URL="../AutoFeedForwardConversion.vi"/>
 					<Item Name="PathSearch.vi" Type="VI" URL="../PathSearch.vi"/>
 				</Item>
@@ -110,10 +110,10 @@ AddOutputFilter chunkFilter
 				<Item Name="DriveDistanceYAdvanced.vi" Type="VI" URL="../DriveDistanceYAdvanced.vi"/>
 				<Item Name="DriveEnd.vi" Type="VI" URL="../DriveEnd.vi"/>
 				<Item Name="DrivePath.vi" Type="VI" URL="../DrivePath.vi"/>
+				<Item Name="DriveSetRobotPosition.vi" Type="VI" URL="../DriveSetRobotPosition.vi"/>
 				<Item Name="DriveWait.vi" Type="VI" URL="../DriveWait.vi"/>
-				<Item Name="SetRobotPosition.vi" Type="VI" URL="../SetRobotPosition.vi"/>
 			</Item>
-			<Item Name="Subsystem Sequencer" Type="Folder">
+			<Item Name="Manipulator Sequencer" Type="Folder">
 				<Item Name="ManipAutoTarget.vi" Type="VI" URL="../ManipAutoTarget.vi"/>
 				<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
 				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
@@ -137,9 +137,11 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Communications" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="ConfigureRobotProfile.vi" Type="VI" URL="../ConfigureRobotProfile.vi"/>
+			<Item Name="DriverStationGetCommands.vi" Type="VI" URL="../DriverStationGetCommands.vi"/>
 			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
-			<Item Name="DriverStationGetInstructions.vi" Type="VI" URL="../DriverStationGetInstructions.vi"/>
 			<Item Name="DriverStationPushData.vi" Type="VI" URL="../DriverStationPushData.vi"/>
+			<Item Name="InitDriverControl.vi" Type="VI" URL="../InitDriverControl.vi"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder" URL="../Documentation">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -160,33 +162,11 @@ AddOutputFilter chunkFilter
 			<Item Name="sensors.vi" Type="VI" URL="../sensors.vi"/>
 			<Item Name="robotprofile.vi" Type="VI" URL="../robotprofile.vi"/>
 		</Item>
-		<Item Name="Initialization" Type="Folder">
-			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
-			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
-			<Item Name="InitConstantsPerformReset.vi" Type="VI" URL="../InitConstantsPerformReset.vi"/>
-			<Item Name="InitDecorations.vi" Type="VI" URL="../InitDecorations.vi"/>
-			<Item Name="InitDrive.vi" Type="VI" URL="../InitDrive.vi"/>
-			<Item Name="InitIntake.vi" Type="VI" URL="../InitIntake.vi"/>
-			<Item Name="InitPneumatics.vi" Type="VI" URL="../InitPneumatics.vi"/>
-			<Item Name="InitSensors.vi" Type="VI" URL="../InitSensors.vi"/>
-			<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
-			<Item Name="InitUserInterface.vi" Type="VI" URL="../InitUserInterface.vi"/>
-			<Item Name="RobotProfileParser.vi" Type="VI" URL="../RobotProfileParser.vi"/>
-		</Item>
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Outputs" Type="Folder">
-			<Item Name="OutputCompressor.vi" Type="VI" URL="../OutputCompressor.vi"/>
-			<Item Name="OutputDecorations.vi" Type="VI" URL="../OutputDecorations.vi"/>
-			<Item Name="OutputIntake.vi" Type="VI" URL="../OutputIntake.vi"/>
-			<Item Name="OutputLimeLight.vi" Type="VI" URL="../OutputLimeLight.vi"/>
-			<Item Name="OutputSwerveAzimuth.vi" Type="VI" URL="../OutputSwerveAzimuth.vi"/>
-			<Item Name="OutputSwerveDrive.vi" Type="VI" URL="../OutputSwerveDrive.vi"/>
-			<Item Name="ShooterOutput.vi" Type="VI" URL="../ShooterOutput.vi"/>
-		</Item>
 		<Item Name="Sensors" Type="Folder">
-			<Item Name="Robot Pose and Targeting" Type="Folder">
+			<Item Name="Pose and Targeting" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
@@ -209,8 +189,14 @@ AddOutputFilter chunkFilter
 			<Item Name="GetSimulatedPressure.vi" Type="VI" URL="../GetSimulatedPressure.vi"/>
 			<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
 			<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
+			<Item Name="InitSensors.vi" Type="VI" URL="../InitSensors.vi"/>
 			<Item Name="MeasureDriveAcceleration.vi" Type="VI" URL="../MeasureDriveAcceleration.vi"/>
 			<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
+		</Item>
+		<Item Name="Subsystem Ball Handling" Type="Folder">
+			<Item Name="InitBallHandling.vi" Type="VI" URL="../InitBallHandling.vi"/>
+			<Item Name="OutputBallHandling.vi" Type="VI" URL="../OutputBallHandling.vi"/>
+			<Item Name="StateBallHandling.vi" Type="VI" URL="../StateBallHandling.vi"/>
 		</Item>
 		<Item Name="Subsystem Drive" Type="Folder">
 			<Item Name="Swerve Toolbox" Type="Folder">
@@ -227,29 +213,30 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="DecideWhenToShift.vi" Type="VI" URL="../DecideWhenToShift.vi"/>
 			<Item Name="DriveCommandToMotorPower.vi" Type="VI" URL="../DriveCommandToMotorPower.vi"/>
-			<Item Name="DriveModeController.vi" Type="VI" URL="../DriveModeController.vi"/>
-			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
-			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
+			<Item Name="InitDrivebase.vi" Type="VI" URL="../InitDrivebase.vi"/>
+			<Item Name="ModeDrivebase.vi" Type="VI" URL="../ModeDrivebase.vi"/>
+			<Item Name="ModeFieldOriented.vi" Type="VI" URL="../ModeFieldOriented.vi"/>
+			<Item Name="OutputSwerveAzimuth.vi" Type="VI" URL="../OutputSwerveAzimuth.vi"/>
+			<Item Name="OutputSwerveDrive.vi" Type="VI" URL="../OutputSwerveDrive.vi"/>
+			<Item Name="StateDrivebase.vi" Type="VI" URL="../StateDrivebase.vi"/>
 			<Item Name="StutterShifterState.vi" Type="VI" URL="../StutterShifterState.vi"/>
 		</Item>
-		<Item Name="Subsystem Intake" Type="Folder">
-			<Item Name="IntakeStateController.vi" Type="VI" URL="../IntakeStateController.vi"/>
-		</Item>
-		<Item Name="Subsystem Magazine" Type="Folder">
-			<Item Name="MagazineStateController.vi" Type="VI" URL="../MagazineStateController.vi"/>
-		</Item>
 		<Item Name="Subsystem Miscellaneous " Type="Folder">
-			<Item Name="CameraStateController.vi" Type="VI" URL="../CameraStateController.vi"/>
-			<Item Name="EmergencyPowerStateController.vi" Type="VI" URL="../EmergencyPowerStateController.vi"/>
-			<Item Name="LEDModeController.vi" Type="VI" URL="../LEDModeController.vi"/>
-			<Item Name="LEDStateController.vi" Type="VI" URL="../LEDStateController.vi"/>
-			<Item Name="SensorDebugColor.vi" Type="VI" URL="../SensorDebugColor.vi"/>
-			<Item Name="SwerveDebugColor.vi" Type="VI" URL="../SwerveDebugColor.vi"/>
+			<Item Name="InitMiscellaneous.vi" Type="VI" URL="../InitMiscellaneous.vi"/>
+			<Item Name="LEDDebugColorSensors.vi" Type="VI" URL="../LEDDebugColorSensors.vi"/>
+			<Item Name="LEDDebugColorSwerve.vi" Type="VI" URL="../LEDDebugColorSwerve.vi"/>
+			<Item Name="ModeLED.vi" Type="VI" URL="../ModeLED.vi"/>
+			<Item Name="OutputCompressor.vi" Type="VI" URL="../OutputCompressor.vi"/>
+			<Item Name="OutputLED.vi" Type="VI" URL="../OutputLED.vi"/>
+			<Item Name="OutputLimeLight.vi" Type="VI" URL="../OutputLimeLight.vi"/>
+			<Item Name="StateLED.vi" Type="VI" URL="../StateLED.vi"/>
+			<Item Name="StateLimeLight.vi" Type="VI" URL="../StateLimeLight.vi"/>
+			<Item Name="StatePowerManagement.vi" Type="VI" URL="../StatePowerManagement.vi"/>
 		</Item>
 		<Item Name="Subsystem Shooter" Type="Folder">
-			<Item Name="ChooseCowlState.vi" Type="VI" URL="../ChooseCowlState.vi"/>
-			<Item Name="CowlStateController.vi" Type="VI" URL="../CowlStateController.vi"/>
-			<Item Name="ShooterStateController.vi" Type="VI" URL="../ShooterStateController.vi"/>
+			<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
+			<Item Name="OutputShooter.vi" Type="VI" URL="../OutputShooter.vi"/>
+			<Item Name="StateShooter.vi" Type="VI" URL="../StateShooter.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="GetRefNumFast" Type="Folder">
@@ -303,9 +290,12 @@ AddOutputFilter chunkFilter
 			<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
 		</Item>
+		<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
+		<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 		<Item Name="MasterRobotModeController.vi" Type="VI" URL="../MasterRobotModeController.vi"/>
 		<Item Name="MasterStateController.vi" Type="VI" URL="../MasterStateController.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
+		<Item Name="ResetAndDefineConstants.vi" Type="VI" URL="../ResetAndDefineConstants.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
