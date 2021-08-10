@@ -155,7 +155,7 @@ AddOutputFilter chunkFilter
 			<Item Name="autoninfo.vi" Type="VI" URL="../autoninfo.vi"/>
 			<Item Name="constants.vi" Type="VI" URL="../constants.vi"/>
 			<Item Name="dsdata.vi" Type="VI" URL="../dsdata.vi"/>
-			<Item Name="dsinstructions.vi" Type="VI" URL="../dsinstructions.vi"/>
+			<Item Name="dscommands.vi" Type="VI" URL="../dscommands.vi"/>
 			<Item Name="pdpterminals.vi" Type="VI" URL="../pdpterminals.vi"/>
 			<Item Name="refnums.vi" Type="VI" URL="../refnums.vi"/>
 			<Item Name="sensors.vi" Type="VI" URL="../sensors.vi"/>
