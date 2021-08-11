@@ -276,6 +276,7 @@ AddOutputFilter chunkFilter
 			<Item Name="InterpolateCalibrationValue.vi" Type="VI" URL="../InterpolateCalibrationValue.vi"/>
 			<Item Name="Latch.vim" Type="VI" URL="../Latch.vim"/>
 			<Item Name="LimitAcceleration.vi" Type="VI" URL="../LimitAcceleration.vi"/>
+			<Item Name="LongpressButton.vi" Type="VI" URL="../LongpressButton.vi"/>
 			<Item Name="PulseOutput.vi" Type="VI" URL="../PulseOutput.vi"/>
 			<Item Name="ReadCSV.vi" Type="VI" URL="../ReadCSV.vi"/>
 			<Item Name="ReadXML.vi" Type="VI" URL="../ReadXML.vi"/>
