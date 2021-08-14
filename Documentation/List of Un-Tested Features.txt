@@ -1,41 +1,4 @@
-> confirm all sensor port numbers (spreadsheet)
-> confirm all actuator port numbers (spreadsheet)
-
-> test velocity averaging in pose code
-> test Lamprey "has reset occured?" functionality
-
-> LimeLight and LIDAR angles and vertical offsets need to be measured 
-
-> test shooter output code
-> tune shooter PID
-> test kicker output code (currently configured for a Falcon)
-> tune kicker PID
-
-> status of shooter and cowl state controller is unknown
-
-> confirm all shooting-related tablet overrides are functional
-> send all subsystem data to dashboard
-> receive all subsystem data from dashboard
-> send shooting-related haptic feedback
-
-> confirm that all shooting-related manipulator controls are reset in auto init
-> confirm that all shooting-related autononomous controls are reset in auto init
-> need balls shot wait in auto (with time since shooting timeout)
-> create MC Rogue autoplays
-
-
-> missing climb sequencer
-> missing climber release piston code
-> missing climber PTO code
-
-> configure robot profiles as needed
-> need to tune all drive code
-> defensive driving behavior is not intuitive for the driver
-
-> missing dashboard error reporting for multiple subsystems
-> missing automated systems check
-
-
+***see FeatureMap for most up-to-date testing requirements***
 
 
 > LimeLight ball tracking code is in place but disabled
