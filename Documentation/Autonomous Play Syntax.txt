@@ -115,7 +115,7 @@ ManipWait=mode,param1,param2;
 -----------------------------------------------------------
 
 ManipChangeState=param1;
-# This VI cahnges the robot's master state.
+# This VI changes the robot's master state.
 
 1. Specifies the desired robot master state.
 
@@ -129,6 +129,13 @@ ManipIntake=;
 ManipAutoTarget=param1;
 # This VI enters or exists auto-targeting mode.
 
-1. Set to 0 to exit auto-targeting, set to 1 to enter auto-targeting.
+1. Set to "off" to exit auto-targeting, set to "on" to enter auto-targeting.
+
+-----------------------------------------------------------
+
+ManipPrespin=param1;
+# This VI starts or stops the shooter pre-spin
+
+1. Set to "on" to prespin or "off" to stop pre-spinning
 
 -----------------------------------------------------------
