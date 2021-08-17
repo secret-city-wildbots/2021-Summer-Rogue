@@ -1,0 +1,18 @@
+Name: StationaryShoot3Balls
+Starting Location: Can start anywhere legal with middle of robot on the initiation line and near enough to the Power Port to shoot
+Push Start Location (x,y,h): (509.2, measured distance from your alliance's trench wall, 0)
+Number of balls to start: 3
+What it does: Shoots 3 balls
+Revision: 8/17/2021
+Confidence: not tested yet
+*
+DriveWait=time_delay,-1,1;
+DriveEnd=;
+*=;
+ManipPrespin=on;
+ManipWait=time_delay,-1,1;
+ManipAutoTarget=on;
+ManipWait=balls_shot,-1,5;
+ManipAutoTarget=off;
+ManipPrespin=off;
+ManipEnd=;
