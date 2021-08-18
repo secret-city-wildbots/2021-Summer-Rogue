@@ -199,6 +199,11 @@ AddOutputFilter chunkFilter
 			<Item Name="OutputBallHandling.vi" Type="VI" URL="../OutputBallHandling.vi"/>
 			<Item Name="StateBallHandling.vi" Type="VI" URL="../StateBallHandling.vi"/>
 		</Item>
+		<Item Name="Subsystem Climber" Type="Folder">
+			<Item Name="ClimbSequencer.vi" Type="VI" URL="../ClimbSequencer.vi"/>
+			<Item Name="InitClimber.vi" Type="VI" URL="../InitClimber.vi"/>
+			<Item Name="OutputClimber.vi" Type="VI" URL="../OutputClimber.vi"/>
+		</Item>
 		<Item Name="Subsystem Drive" Type="Folder">
 			<Item Name="Swerve Toolbox" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
