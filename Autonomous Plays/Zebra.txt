@@ -1,0 +1,34 @@
+Name: Zebra
+Starting Location: on the robot cart
+Push Start Location (x,y,h): (400,200,0)
+Number of balls to start: 0
+What it does: allows the driver to advance through a systems check
+Revision: 8/24/2021
+Confidence: not tested
+*
+DriveWait=manual_advance,1,1;
+DriveDistanceX=100,0.2;
+DriveWait=time_delay,500;
+DriveDistanceY=100,0.2;
+DriveWait=time_delay,500;
+DriveAngleH=180,0.2;
+DriveWait=manual_advance,1,1;
+DriveDistanceX=500,1.0;
+DriveEnd=;
+*=;
+ManipWait=drive_step,8,1;
+ManipWait=manual_advance,1,1;
+ManipIntake=;
+ManipWait=time_delay,3000;
+ManipIntake=;
+ManipWait=manual_advance,1,1;
+ManipPrespin=on;
+ManipWait=manual_advance,1,1;
+ManipAutoTarget=on;
+ManipWait=manual_advance,1,1;
+ManipForceFire=on;
+ManipWait=manual_advance,1,1;
+ManipForceFire=off;
+ManipAutoTarget=off;
+ManipPrespin=off;
+ManipEnd=;

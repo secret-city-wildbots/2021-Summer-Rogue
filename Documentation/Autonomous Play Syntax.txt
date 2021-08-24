@@ -20,6 +20,10 @@ DriveWait=mode,param1,param2;
 1. Maximum amount of time to stay waiting, specified in milliseconds, set to -1 for no timeout.
 2. Number of balls to to wait to be shot [1,5].
 
+>> manual_advance
+1. Dummy parameter, set to 1.
+2. Dummy parameter, set to 1.
+
 -----------------------------------------------------------
 
 DriveDistanceX=param1,param2;
@@ -119,6 +123,10 @@ ManipWait=mode,param1,param2;
 >> balls_shot
 1. Maximum amount of time to stay waiting, specified in milliseconds, set to -1 for no timeout.
 2. Number of balls to to wait to be shot [1,5].
+
+>> manual_advance
+1. Dummy parameter, set to 1.
+2. Dummy parameter, set to 1.
 
 -----------------------------------------------------------
 

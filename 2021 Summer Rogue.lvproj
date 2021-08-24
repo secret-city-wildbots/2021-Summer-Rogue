@@ -117,6 +117,7 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipAutoTarget.vi" Type="VI" URL="../ManipAutoTarget.vi"/>
 				<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
 				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
+				<Item Name="ManipForceFire.vi" Type="VI" URL="../ManipForceFire.vi"/>
 				<Item Name="ManipIntake.vi" Type="VI" URL="../ManipIntake.vi"/>
 				<Item Name="ManipPrespin.vi" Type="VI" URL="../ManipPrespin.vi"/>
 				<Item Name="ManipWait.vi" Type="VI" URL="../ManipWait.vi"/>
