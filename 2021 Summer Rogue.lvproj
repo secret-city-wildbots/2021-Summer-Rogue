@@ -292,6 +292,7 @@ AddOutputFilter chunkFilter
 			<Item Name="RGBtoGRB.vi" Type="VI" URL="../RGBtoGRB.vi"/>
 			<Item Name="SafeParser.vi" Type="VI" URL="../SafeParser.vi"/>
 			<Item Name="SendGlobalVariablesToNT.vi" Type="VI" URL="../SendGlobalVariablesToNT.vi"/>
+			<Item Name="SendMessageToConsole.vi" Type="VI" URL="../SendMessageToConsole.vi"/>
 			<Item Name="StateSelection.vi" Type="VI" URL="../StateSelection.vi"/>
 			<Item Name="StickyButton.vi" Type="VI" URL="../StickyButton.vi"/>
 			<Item Name="TestActuatorInterlock.vi" Type="VI" URL="../TestActuatorInterlock.vi"/>
