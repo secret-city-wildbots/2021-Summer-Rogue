@@ -1,19 +1,13 @@
 > still need to confirm azimuth behavior during a brown-out event
-> shifting RPM threshold is still set too low
-> drivebase PIDs and driver profiles need to be tuned
+> Lamprey code is bypassed
 
-> discrete velocity averaging in the robot pose calculations has not been tested
 > confirm LIDAR and LimeLight distance calibrations
 > test full sensor-fusion code
 > test LIDAR fault detection code
 
-> shooter PID and fixed-position setpoints need to be tuned
-> generate the targeting computer CSV and set cowl position thresholds
-> define shooter range limit, emergency power threshhold, and pre-spin threshold
+> shooter fixed-position setpoints need to be tuned
+> generate the targeting computer CSV
 
-> SendMessageToConsole.vi
-
-> measure robot acceleration
 > tune autonomous PID controllers
 > no auto plays are currently tested or tuned
 
