@@ -1,5 +1,8 @@
+> new azimuth code w/o an absolute encoder
 > still need to confirm azimuth behavior during a brown-out event
-> Lamprey code is bypassed
+
+
+
 
 > confirm LIDAR and LimeLight distance calibrations
 > test full sensor-fusion code
