@@ -1,13 +1,13 @@
 Name: Steal2Shoot5Angled
-Starting Location: back bumpers crossing the initiation line, side against the wall, facing drivers
+Starting Location: back bumpers crossing the initiation line, side against the trench wall, facing drivers
 Push Start Location (x,y,h): (500,303,180)
 Number of balls to start: 3
 What it does: steals 2 balls from opposing trench and then shoots 5 balls
-Revision: 8/24/2021
+Revision: 9/6/2021
 Confidence: not tested yet
 *
 DriveWait=time_delay,-1,1;
-DrivePath=6,20,7,Steal2Shoot5Angled,normal;
+DrivePath=6,20,9000,Steal2Shoot5Angled,normal;
 DriveEnd=;
 *=;
 ManipPrespin=on;
