@@ -1,5 +1,5 @@
 > shooter fixed-position setpoints need to be tuned
-> generate the targeting computer CSV
+> generate the targeting computer CSV files (one for each cowl position)
 
 > calibrate wheel diameter
 > tune autonomous PID controllers
@@ -7,6 +7,7 @@
 
 > configure climber (kicker) motor current limit switching
 
+> autonomous error reporting
 > systems check (Zebra auto play) and the associated wait-VIs has not been tested yet
 > defensive driving code has not been tested yet
 
