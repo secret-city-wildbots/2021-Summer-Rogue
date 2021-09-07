@@ -10,8 +10,7 @@
 > autonomous error reporting
 > systems check (Zebra auto play) and the associated wait-VIs has not been tested yet
 > defensive driving code has not been tested yet
-
-
+> new pressure venting and leak code needs to be integrated and tested
 
 
 
