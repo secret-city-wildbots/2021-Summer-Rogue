@@ -196,55 +196,57 @@ AddOutputFilter chunkFilter
 			<Item Name="MeasureDriveAcceleration.vi" Type="VI" URL="../MeasureDriveAcceleration.vi"/>
 			<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
 		</Item>
-		<Item Name="Subsystem Ball Handling" Type="Folder">
-			<Item Name="InitBallHandling.vi" Type="VI" URL="../InitBallHandling.vi"/>
-			<Item Name="OutputBallHandling.vi" Type="VI" URL="../OutputBallHandling.vi"/>
-			<Item Name="StateBallHandling.vi" Type="VI" URL="../StateBallHandling.vi"/>
-		</Item>
-		<Item Name="Subsystem Climber" Type="Folder">
-			<Item Name="ClimbSequencer.vi" Type="VI" URL="../ClimbSequencer.vi"/>
-			<Item Name="InitClimber.vi" Type="VI" URL="../InitClimber.vi"/>
-			<Item Name="OutputClimber.vi" Type="VI" URL="../OutputClimber.vi"/>
-		</Item>
-		<Item Name="Subsystem Drivebase" Type="Folder">
-			<Item Name="Swerve Toolbox" Type="Folder">
-				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
-				<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
-				<Item Name="SwerveChooseCenter.vi" Type="VI" URL="../SwerveChooseCenter.vi"/>
-				<Item Name="SwerveHeadingLock.vi" Type="VI" URL="../SwerveHeadingLock.vi"/>
-				<Item Name="SwerveJoystickStrafeScaling.vi" Type="VI" URL="../SwerveJoystickStrafeScaling.vi"/>
-				<Item Name="SwerveKinematics.vi" Type="VI" URL="../SwerveKinematics.vi"/>
-				<Item Name="SwerveLatchGoalAngle.vi" Type="VI" URL="../SwerveLatchGoalAngle.vi"/>
-				<Item Name="SwerveModifyDriveCommand.vi" Type="VI" URL="../SwerveModifyDriveCommand.vi"/>
-				<Item Name="SwerveJoystickRotationScaling.vi" Type="VI" URL="../SwerveJoystickRotationScaling.vi"/>
+		<Item Name="Subsystems" Type="Folder">
+			<Item Name="Ball Handling" Type="Folder">
+				<Item Name="InitBallHandling.vi" Type="VI" URL="../InitBallHandling.vi"/>
+				<Item Name="OutputBallHandling.vi" Type="VI" URL="../OutputBallHandling.vi"/>
+				<Item Name="StateBallHandling.vi" Type="VI" URL="../StateBallHandling.vi"/>
 			</Item>
-			<Item Name="DecideWhenToShift.vi" Type="VI" URL="../DecideWhenToShift.vi"/>
-			<Item Name="DriveCommandToMotorPower.vi" Type="VI" URL="../DriveCommandToMotorPower.vi"/>
-			<Item Name="InitDrivebase.vi" Type="VI" URL="../InitDrivebase.vi"/>
-			<Item Name="ModeDrivebase.vi" Type="VI" URL="../ModeDrivebase.vi"/>
-			<Item Name="ModeFieldOriented.vi" Type="VI" URL="../ModeFieldOriented.vi"/>
-			<Item Name="OutputSwerveAzimuth.vi" Type="VI" URL="../OutputSwerveAzimuth.vi"/>
-			<Item Name="OutputSwerveDrive.vi" Type="VI" URL="../OutputSwerveDrive.vi"/>
-			<Item Name="StateDrivebase.vi" Type="VI" URL="../StateDrivebase.vi"/>
-			<Item Name="StutterShifterState.vi" Type="VI" URL="../StutterShifterState.vi"/>
-		</Item>
-		<Item Name="Subsystem Miscellaneous " Type="Folder">
-			<Item Name="InitMiscellaneous.vi" Type="VI" URL="../InitMiscellaneous.vi"/>
-			<Item Name="LEDDebugColorSensors.vi" Type="VI" URL="../LEDDebugColorSensors.vi"/>
-			<Item Name="LEDDebugColorSwerve.vi" Type="VI" URL="../LEDDebugColorSwerve.vi"/>
-			<Item Name="ModeLED.vi" Type="VI" URL="../ModeLED.vi"/>
-			<Item Name="OutputCompressor.vi" Type="VI" URL="../OutputCompressor.vi"/>
-			<Item Name="OutputLED.vi" Type="VI" URL="../OutputLED.vi"/>
-			<Item Name="OutputLimeLight.vi" Type="VI" URL="../OutputLimeLight.vi"/>
-			<Item Name="StateLED.vi" Type="VI" URL="../StateLED.vi"/>
-			<Item Name="StateLimeLight.vi" Type="VI" URL="../StateLimeLight.vi"/>
-			<Item Name="StatePowerManagement.vi" Type="VI" URL="../StatePowerManagement.vi"/>
-		</Item>
-		<Item Name="Subsystem Shooter" Type="Folder">
-			<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
-			<Item Name="OutputShooter.vi" Type="VI" URL="../OutputShooter.vi"/>
-			<Item Name="StateShooter.vi" Type="VI" URL="../StateShooter.vi"/>
+			<Item Name="Climber" Type="Folder">
+				<Item Name="ClimbSequencer.vi" Type="VI" URL="../ClimbSequencer.vi"/>
+				<Item Name="InitClimber.vi" Type="VI" URL="../InitClimber.vi"/>
+				<Item Name="OutputClimber.vi" Type="VI" URL="../OutputClimber.vi"/>
+			</Item>
+			<Item Name="Drivebase" Type="Folder">
+				<Item Name="Swerve Toolbox" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">3</Property>
+					<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
+					<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
+					<Item Name="SwerveChooseCenter.vi" Type="VI" URL="../SwerveChooseCenter.vi"/>
+					<Item Name="SwerveHeadingLock.vi" Type="VI" URL="../SwerveHeadingLock.vi"/>
+					<Item Name="SwerveJoystickStrafeScaling.vi" Type="VI" URL="../SwerveJoystickStrafeScaling.vi"/>
+					<Item Name="SwerveKinematics.vi" Type="VI" URL="../SwerveKinematics.vi"/>
+					<Item Name="SwerveLatchGoalAngle.vi" Type="VI" URL="../SwerveLatchGoalAngle.vi"/>
+					<Item Name="SwerveModifyDriveCommand.vi" Type="VI" URL="../SwerveModifyDriveCommand.vi"/>
+					<Item Name="SwerveJoystickRotationScaling.vi" Type="VI" URL="../SwerveJoystickRotationScaling.vi"/>
+				</Item>
+				<Item Name="DecideWhenToShift.vi" Type="VI" URL="../DecideWhenToShift.vi"/>
+				<Item Name="DriveCommandToMotorPower.vi" Type="VI" URL="../DriveCommandToMotorPower.vi"/>
+				<Item Name="InitDrivebase.vi" Type="VI" URL="../InitDrivebase.vi"/>
+				<Item Name="ModeDrivebase.vi" Type="VI" URL="../ModeDrivebase.vi"/>
+				<Item Name="ModeFieldOriented.vi" Type="VI" URL="../ModeFieldOriented.vi"/>
+				<Item Name="OutputSwerveAzimuth.vi" Type="VI" URL="../OutputSwerveAzimuth.vi"/>
+				<Item Name="OutputSwerveDrive.vi" Type="VI" URL="../OutputSwerveDrive.vi"/>
+				<Item Name="StateDrivebase.vi" Type="VI" URL="../StateDrivebase.vi"/>
+				<Item Name="StutterShifterState.vi" Type="VI" URL="../StutterShifterState.vi"/>
+			</Item>
+			<Item Name="Miscellaneous " Type="Folder">
+				<Item Name="InitMiscellaneous.vi" Type="VI" URL="../InitMiscellaneous.vi"/>
+				<Item Name="LEDDebugColorSensors.vi" Type="VI" URL="../LEDDebugColorSensors.vi"/>
+				<Item Name="LEDDebugColorSwerve.vi" Type="VI" URL="../LEDDebugColorSwerve.vi"/>
+				<Item Name="ModeLED.vi" Type="VI" URL="../ModeLED.vi"/>
+				<Item Name="OutputCompressor.vi" Type="VI" URL="../OutputCompressor.vi"/>
+				<Item Name="OutputLED.vi" Type="VI" URL="../OutputLED.vi"/>
+				<Item Name="OutputLimeLight.vi" Type="VI" URL="../OutputLimeLight.vi"/>
+				<Item Name="StateLED.vi" Type="VI" URL="../StateLED.vi"/>
+				<Item Name="StateLimeLight.vi" Type="VI" URL="../StateLimeLight.vi"/>
+				<Item Name="StatePowerManagement.vi" Type="VI" URL="../StatePowerManagement.vi"/>
+			</Item>
+			<Item Name="Shooter" Type="Folder">
+				<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
+				<Item Name="OutputShooter.vi" Type="VI" URL="../OutputShooter.vi"/>
+				<Item Name="StateShooter.vi" Type="VI" URL="../StateShooter.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="GetRefNumFast" Type="Folder">
