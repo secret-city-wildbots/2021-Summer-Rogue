@@ -6,9 +6,6 @@
 
 
 > defensive driving code has not been tested yet
-> new pressure venting and leak code
-> LED debug mode needs to be re-enabled
-> new error reporting for missing calibration files
 
 
 > LimeLight ball tracking code is in place but disabled
