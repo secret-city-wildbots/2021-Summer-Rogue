@@ -13,7 +13,7 @@ DriveWait=mode,param1,param2;
 2. Dummy parameter, set to 1.
 
 >> sequencer_step
-1. Wait for the subsystem sequencer to reach the specified step.
+1. Wait for the manipulator sequencer to reach the specified step.
 2. Dummy parameter, set to 1.
 
 >> balls_shot
@@ -97,12 +97,12 @@ DrivePath=param1,param2,param3,param4,param5;
 -----------------------------------------------------------
 
 ManipEnd=;
-# This VI sets the all of the joysticks buttons to safe positions and permanently halts the subsystem sequencer.
+# This VI sets the all of the joysticks buttons to safe positions and permanently halts the manipulator sequencer.
 
 -----------------------------------------------------------
 
 ManipWait=mode,param1,param2;
-# This VI pauses the subsystem sequencer until the specified condition is met.
+# This VI pauses the manipulator sequencer until the specified condition is met.
 
 >> time_delay
 1. Wait time specified in milliseconds, set to -1 to use the dashboard-configured delay.
