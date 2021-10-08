@@ -1,7 +1,6 @@
 > calibrate wheel diameter
 > tune autonomous PID controllers
 > tune auto paths
-> autonomous error reporting fix
 > systems check (Zebra auto play) and the associated wait-VIs has not been tested yet
 
 
