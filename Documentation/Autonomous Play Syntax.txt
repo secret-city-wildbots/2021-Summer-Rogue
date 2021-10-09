@@ -8,14 +8,14 @@ DriveEnd=;
 DriveWaitForTime=param1;
 # Pauses the drive sequencer until the specified amount of time has elapsed.
 
-1. Time delay (ms), set to -1 to use the dashboard-configurable value (s)
+1. Time delay (ms), set to -1 to use the dashboard-configurable value (s).
 
 -----------------------------------------------------------
 
 DriveWaitForManip=param1;
 # Pauses the drive sequencer until the manipulator sequencer has reached (or passed) the specified step.
 
-1. Manipulator step to wait for
+1. Manipulator step to wait for.
 
 -----------------------------------------------------------
 
@@ -27,8 +27,8 @@ DriveWaitForButton=;
 DriveWaitForBalls=param1,param2;
 # Pauses the drive sequencer until the specified number of balls have been shot.
 
-1. Number of balls to be shot [1,5]
-2. Timeout (ms), or set to -1 to disable
+1. Number of balls to be shot [1,5].
+2. Timeout (ms), or set to -1 to disable.
 
 -----------------------------------------------------------
 
@@ -111,14 +111,14 @@ ManipEnd=;
 ManipWaitForTime=param1;
 # Pauses the manipulator sequencer until the specified amount of time has elapsed.
 
-1. Time delay (ms), set to -1 to use the dashboard-configurable value (s)
+1. Time delay (ms), set to -1 to use the dashboard-configurable value (s).
 
 -----------------------------------------------------------
 
 ManipWaitForDrive=param1;
 # Pauses the manipulator sequencer until the drive sequencer has reached (or passed) the specified step.
 
-1. Drive step to wait for
+1. Drive step to wait for.
 
 -----------------------------------------------------------
 
@@ -130,16 +130,16 @@ ManipWaitForButton=;
 ManipWaitForDistance=param1,param2;
 # Pauses the manipulator sequencer until the robot has driven along a path for a specified distance measured either from the start or the end of the path.
 
-1. If postive this is the distance from start of path (in), if negative this is the distance from the end of the path(in)
-2. Timeout (ms), or set to -1 to disable
+1. If postive this is the distance from start of path (in), if negative this is the distance from the end of the path (in) [-1200,1200].
+2. Timeout (ms), or set to -1 to disable.
 
 -----------------------------------------------------------
 
 ManipWaitForBalls=param1,param2;
 # Pauses the drive sequencer until the specified number of balls have been shot.
 
-1. Number of balls to be shot [1,5]
-2. Timeout (ms), or set to -1 to disable
+1. Number of balls to be shot [1,5].
+2. Timeout (ms), or set to -1 to disable.
 
 -----------------------------------------------------------
 

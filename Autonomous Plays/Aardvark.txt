@@ -3,11 +3,11 @@ Starting Location: no restrictions
 Push Start Location (x,y,h): (509.2, measured distance from your alliance's trench wall, 0 or 180)
 Number of balls to start: 0 - 3 
 What it does: doesn't move or shoot
-Revision: 9/6/2021
-Confidence: very confident
+Revision: 10/09/2021
+Confidence: not tested
 *
-DriveWait=time_delay,-1,1;
+DriveWaitForTime=-1;
 DriveEnd=;
 *=;
-ManipWait=time_delay,-1,1;
+ManipWaitForTime=-1;
 ManipEnd=;
