@@ -111,7 +111,10 @@ AddOutputFilter chunkFilter
 				<Item Name="DriveEnd.vi" Type="VI" URL="../DriveEnd.vi"/>
 				<Item Name="DrivePath.vi" Type="VI" URL="../DrivePath.vi"/>
 				<Item Name="DriveSetRobotPosition.vi" Type="VI" URL="../DriveSetRobotPosition.vi"/>
-				<Item Name="DriveWait.vi" Type="VI" URL="../DriveWait.vi"/>
+				<Item Name="DriveWaitForBalls.vi" Type="VI" URL="../DriveWaitForBalls.vi"/>
+				<Item Name="DriveWaitForButton.vi" Type="VI" URL="../DriveWaitForButton.vi"/>
+				<Item Name="DriveWaitForManip.vi" Type="VI" URL="../DriveWaitForManip.vi"/>
+				<Item Name="DriveWaitForTime.vi" Type="VI" URL="../DriveWaitForTime.vi"/>
 			</Item>
 			<Item Name="Manipulator Sequencer" Type="Folder">
 				<Item Name="ManipAutoTarget.vi" Type="VI" URL="../ManipAutoTarget.vi"/>

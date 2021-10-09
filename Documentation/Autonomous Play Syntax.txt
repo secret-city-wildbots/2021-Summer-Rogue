@@ -5,24 +5,30 @@ DriveEnd=;
 
 -----------------------------------------------------------
 
-DriveWait=mode,param1,param2;
-# This VI pauses the drive sequencer until the specified condition is met.
+DriveWaitForTime=param1;
+# Pauses the drive sequencer until the specified amount of time has elapsed.
 
->> time_delay
-1. Wait time specified in milliseconds, set to -1 to use the dashboard-configured delay.
-2. Dummy parameter, set to 1.
+1. Time delay (ms), set to -1 to use the dashboard-configurable value (s)
 
->> sequencer_step
-1. Wait for the manipulator sequencer to reach the specified step.
-2. Dummy parameter, set to 1.
+-----------------------------------------------------------
 
->> balls_shot
-1. Maximum amount of time to stay waiting, specified in milliseconds, set to -1 for no timeout.
-2. Number of balls to to wait to be shot [1,5].
+DriveWaitForManip=param1;
+# Pauses the drive sequencer until the manipulator sequencer has reached (or passed) the specified step.
 
->> manual_advance
-1. Dummy parameter, set to 1.
-2. Dummy parameter, set to 1.
+1. Manipulator step to wait for
+
+-----------------------------------------------------------
+
+DriveWaitForManip=;
+# Pauses the drive sequencer until the driver presses the "advance system check" button on the joystick.
+
+-----------------------------------------------------------
+
+DriveWaitForBalls=param1,param2;
+# Pauses the drive sequencer until the specified number of balls have been shot.
+
+1. Number of balls to be shot [1,5]
+2. Timeout (ms), or set to -1 to disable
 
 -----------------------------------------------------------
 
