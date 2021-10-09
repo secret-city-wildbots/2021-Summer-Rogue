@@ -123,7 +123,11 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipForceFire.vi" Type="VI" URL="../ManipForceFire.vi"/>
 				<Item Name="ManipIntake.vi" Type="VI" URL="../ManipIntake.vi"/>
 				<Item Name="ManipPrespin.vi" Type="VI" URL="../ManipPrespin.vi"/>
-				<Item Name="ManipWait.vi" Type="VI" URL="../ManipWait.vi"/>
+				<Item Name="ManipWaitForBalls.vi" Type="VI" URL="../ManipWaitForBalls.vi"/>
+				<Item Name="ManipWaitForButton.vi" Type="VI" URL="../ManipWaitForButton.vi"/>
+				<Item Name="ManipWaitForDistance.vi" Type="VI" URL="../ManipWaitForDistance.vi"/>
+				<Item Name="ManipWaitForDrive.vi" Type="VI" URL="../ManipWaitForDrive.vi"/>
+				<Item Name="ManipWaitForTime.vi" Type="VI" URL="../ManipWaitForTime.vi"/>
 			</Item>
 			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
 			<Item Name="AutoParameterStringToArray.vi" Type="VI" URL="../AutoParameterStringToArray.vi"/>
