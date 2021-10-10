@@ -111,7 +111,10 @@ AddOutputFilter chunkFilter
 				<Item Name="DriveEnd.vi" Type="VI" URL="../DriveEnd.vi"/>
 				<Item Name="DrivePath.vi" Type="VI" URL="../DrivePath.vi"/>
 				<Item Name="DriveSetRobotPosition.vi" Type="VI" URL="../DriveSetRobotPosition.vi"/>
-				<Item Name="DriveWait.vi" Type="VI" URL="../DriveWait.vi"/>
+				<Item Name="DriveWaitForBalls.vi" Type="VI" URL="../DriveWaitForBalls.vi"/>
+				<Item Name="DriveWaitForButton.vi" Type="VI" URL="../DriveWaitForButton.vi"/>
+				<Item Name="DriveWaitForManip.vi" Type="VI" URL="../DriveWaitForManip.vi"/>
+				<Item Name="DriveWaitForTime.vi" Type="VI" URL="../DriveWaitForTime.vi"/>
 			</Item>
 			<Item Name="Manipulator Sequencer" Type="Folder">
 				<Item Name="ManipAutoTarget.vi" Type="VI" URL="../ManipAutoTarget.vi"/>
@@ -120,7 +123,11 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipForceFire.vi" Type="VI" URL="../ManipForceFire.vi"/>
 				<Item Name="ManipIntake.vi" Type="VI" URL="../ManipIntake.vi"/>
 				<Item Name="ManipPrespin.vi" Type="VI" URL="../ManipPrespin.vi"/>
-				<Item Name="ManipWait.vi" Type="VI" URL="../ManipWait.vi"/>
+				<Item Name="ManipWaitForBalls.vi" Type="VI" URL="../ManipWaitForBalls.vi"/>
+				<Item Name="ManipWaitForButton.vi" Type="VI" URL="../ManipWaitForButton.vi"/>
+				<Item Name="ManipWaitForDistance.vi" Type="VI" URL="../ManipWaitForDistance.vi"/>
+				<Item Name="ManipWaitForDrive.vi" Type="VI" URL="../ManipWaitForDrive.vi"/>
+				<Item Name="ManipWaitForTime.vi" Type="VI" URL="../ManipWaitForTime.vi"/>
 			</Item>
 			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
 			<Item Name="AutoParameterStringToArray.vi" Type="VI" URL="../AutoParameterStringToArray.vi"/>
@@ -134,9 +141,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Autonomous Plays" Type="Folder" URL="../Autonomous Plays">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Calibrations" Type="Folder" URL="../Calibrations">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="Calibrations" Type="Folder"/>
 		<Item Name="Communications" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="ConfigureRobotProfile.vi" Type="VI" URL="../ConfigureRobotProfile.vi"/>
@@ -296,7 +301,8 @@ AddOutputFilter chunkFilter
 			<Item Name="RGBtoGRB.vi" Type="VI" URL="../RGBtoGRB.vi"/>
 			<Item Name="SafeParser.vi" Type="VI" URL="../SafeParser.vi"/>
 			<Item Name="SendMessageToConsole.vi" Type="VI" URL="../SendMessageToConsole.vi"/>
-			<Item Name="StateSelection.vi" Type="VI" URL="../StateSelection.vi"/>
+			<Item Name="StateSelectionEnum.vim" Type="VI" URL="../StateSelectionEnum.vim"/>
+			<Item Name="StateSelectionString.vi" Type="VI" URL="../StateSelectionString.vi"/>
 			<Item Name="StickyButton.vi" Type="VI" URL="../StickyButton.vi"/>
 			<Item Name="TestActuatorInterlock.vi" Type="VI" URL="../TestActuatorInterlock.vi"/>
 			<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
@@ -824,7 +830,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">126</Property>
+				<Property Name="Bld_version.build" Type="Int">127</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

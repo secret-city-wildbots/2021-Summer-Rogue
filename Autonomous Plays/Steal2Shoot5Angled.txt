@@ -3,22 +3,22 @@ Starting Location: back bumpers crossing the initiation line, side against the t
 Push Start Location (x,y,h): (500,303,180)
 Number of balls to start: 3
 What it does: steals 2 balls from opposing trench and then shoots 5 balls
-Revision: 9/6/2021
-Confidence: not tested yet
+Revision: 10/09/2021
+Confidence: not dialed in yet
 *
-DriveWait=time_delay,-1,1;
+DriveWaitForTime=-1;
 DrivePath=6,20,9000,Steal2Shoot5Angled,normal;
 DriveEnd=;
 *=;
 ManipPrespin=on;
-ManipWait=time_delay,-1,1;
+ManipWaitForTime=-1;
 ManipIntake=;
-ManipWait=drive_step,1,1;
-ManipWait=dist_from_start,116,1;
+ManipWaitForDrive=1;
+ManipWaitForDistance=116,-1;
 ManipIntake=;
-ManipWait=dist_from_end,24,1;
+ManipWaitForDistance=-24,-1;
 ManipAutoTarget=on;
-ManipWait=balls_shot,-1,5;
+ManipWaitForBalls=5,-1;
 ManipAutoTarget=off;
 ManipPrespin=off;
 ManipEnd=;
