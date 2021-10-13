@@ -1,11 +1,4 @@
 > calibrate wheel diameter
-> tune autonomous PID controllers
-> tune auto paths
-> systems check (Zebra auto play) and the associated wait-VIs has not been tested yet
-
-
-> defensive driving code has not been tested yet
-
 
 > LimeLight ball tracking code is in place but disabled
 > LimeLight PnP code is in place but fusion is disabled
