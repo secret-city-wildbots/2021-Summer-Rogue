@@ -1,0 +1,14 @@
+Name: Training
+Starting Location: on middle of initiation line
+Push Start Location (x,y,h): (120,250,0)
+Number of balls to start: 0
+What it does: drives a path
+Revision: 10/21/2021
+Confidence: not dialed in yet
+*
+DriveWaitForTime=-1;
+DrivePath=6,20,9000,training,normal;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipEnd=;
