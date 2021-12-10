@@ -27,6 +27,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.DoNotReboot" Type="Bool">true</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
@@ -128,6 +129,7 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipWaitForDistance.vi" Type="VI" URL="../ManipWaitForDistance.vi"/>
 				<Item Name="ManipWaitForDrive.vi" Type="VI" URL="../ManipWaitForDrive.vi"/>
 				<Item Name="ManipWaitForTime.vi" Type="VI" URL="../ManipWaitForTime.vi"/>
+				<Item Name="ManipRainbowDistance.vi" Type="VI" URL="../ManipRainbowDistance.vi"/>
 			</Item>
 			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
 			<Item Name="AutoParameterStringToArray.vi" Type="VI" URL="../AutoParameterStringToArray.vi"/>
@@ -171,35 +173,6 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="Sensors" Type="Folder">
-			<Item Name="Pose and Targeting" Type="Folder">
-				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
-				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
-				<Item Name="FuseTargeting.vi" Type="VI" URL="../FuseTargeting.vi"/>
-				<Item Name="LIDARRangingPose.vi" Type="VI" URL="../LIDARRangingPose.vi"/>
-				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
-				<Item Name="VisionPnPPose.vi" Type="VI" URL="../VisionPnPPose.vi"/>
-				<Item Name="VisionRangingPose.vi" Type="VI" URL="../VisionRangingPose.vi"/>
-			</Item>
-			<Item Name="ChoosePath.vi" Type="VI" URL="../ChoosePath.vi"/>
-			<Item Name="ConvertFalconDriveEncoders.vi" Type="VI" URL="../ConvertFalconDriveEncoders.vi"/>
-			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
-			<Item Name="DetectPressureAnomalies.vi" Type="VI" URL="../DetectPressureAnomalies.vi"/>
-			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
-			<Item Name="GetLIDAR.vi" Type="VI" URL="../GetLIDAR.vi"/>
-			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
-			<Item Name="GetPigeonIMU.vi" Type="VI" URL="../GetPigeonIMU.vi"/>
-			<Item Name="GetShifterState.vi" Type="VI" URL="../GetShifterState.vi"/>
-			<Item Name="GetSimulatedIMU.vi" Type="VI" URL="../GetSimulatedIMU.vi"/>
-			<Item Name="GetSimulatedPressure.vi" Type="VI" URL="../GetSimulatedPressure.vi"/>
-			<Item Name="GetSwerveAbsoluteAzimuth.vi" Type="VI" URL="../GetSwerveAbsoluteAzimuth.vi"/>
-			<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
-			<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
-			<Item Name="InitSensors.vi" Type="VI" URL="../InitSensors.vi"/>
-			<Item Name="MeasureDriveAcceleration.vi" Type="VI" URL="../MeasureDriveAcceleration.vi"/>
-			<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
 		</Item>
 		<Item Name="Subsystems" Type="Folder">
 			<Item Name="Ball Handling" Type="Folder">
@@ -253,6 +226,35 @@ AddOutputFilter chunkFilter
 				<Item Name="OutputShooter.vi" Type="VI" URL="../OutputShooter.vi"/>
 				<Item Name="StateShooter.vi" Type="VI" URL="../StateShooter.vi"/>
 			</Item>
+		</Item>
+		<Item Name="Sensors" Type="Folder">
+			<Item Name="Pose and Targeting" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
+				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
+				<Item Name="FuseTargeting.vi" Type="VI" URL="../FuseTargeting.vi"/>
+				<Item Name="LIDARRangingPose.vi" Type="VI" URL="../LIDARRangingPose.vi"/>
+				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
+				<Item Name="VisionPnPPose.vi" Type="VI" URL="../VisionPnPPose.vi"/>
+				<Item Name="VisionRangingPose.vi" Type="VI" URL="../VisionRangingPose.vi"/>
+			</Item>
+			<Item Name="ChoosePath.vi" Type="VI" URL="../ChoosePath.vi"/>
+			<Item Name="ConvertFalconDriveEncoders.vi" Type="VI" URL="../ConvertFalconDriveEncoders.vi"/>
+			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
+			<Item Name="DetectPressureAnomalies.vi" Type="VI" URL="../DetectPressureAnomalies.vi"/>
+			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
+			<Item Name="GetLIDAR.vi" Type="VI" URL="../GetLIDAR.vi"/>
+			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
+			<Item Name="GetPigeonIMU.vi" Type="VI" URL="../GetPigeonIMU.vi"/>
+			<Item Name="GetShifterState.vi" Type="VI" URL="../GetShifterState.vi"/>
+			<Item Name="GetSimulatedPressure.vi" Type="VI" URL="../GetSimulatedPressure.vi"/>
+			<Item Name="GetSwerveAbsoluteAzimuth.vi" Type="VI" URL="../GetSwerveAbsoluteAzimuth.vi"/>
+			<Item Name="GetSimulatedIMU.vi" Type="VI" URL="../GetSimulatedIMU.vi"/>
+			<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
+			<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
+			<Item Name="InitSensors.vi" Type="VI" URL="../InitSensors.vi"/>
+			<Item Name="MeasureDriveAcceleration.vi" Type="VI" URL="../MeasureDriveAcceleration.vi"/>
+			<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="GetRefNumFast" Type="Folder">

@@ -1,0 +1,21 @@
+Name: Spinz
+Starting Location: Probably more than 4 feet from the left wall
+Push Start Location (x,y,0): (509.2, measured distance from your alliance's trench wall, 0 or 180)
+Number of balls to start: 0 
+What it does: spins, moves 4 feet left, spins, moves 4 feet right and spins again
+Revision: 10/09/2021
+Confidence: no
+*
+DriveWaitForTime=-1;
+DriveAngleH=180,-0.8;
+DriveAngleH=0,-0.8;
+DriveDistanceY=48,0.2;
+DriveAngleH=180,0.8;
+DriveAngleH=0,0.8;
+DriveDistanceY=48,-0.3;
+DriveAngleH=180,-0.8;
+DriveAngleH=0,-0.8;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipEnd=;

@@ -1,0 +1,14 @@
+Name: Testing drive y
+Starting Location: a little bit in front of initiation line
+Push Start Location (x,y,h): (180,80,0)
+Number of balls to start: 0
+What it does: runs a training path
+Revision: 12/07/2021
+Confidence: not dialed in yet
+*
+DriveWaitForTime=-1;
+DriveDistanceX=40,0.5;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipEnd=;

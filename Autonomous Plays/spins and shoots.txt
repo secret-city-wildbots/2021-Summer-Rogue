@@ -1,0 +1,18 @@
+Name: spin and shoot
+Starting Location: no restrictions
+Push Start Location (x,y,h): (509.2, measured distance from your alliance's trench wall, 0 or 180)
+Number of balls to start: 3
+What it does: spins and shoots
+Revision: 11/18/2021
+Confidence: eh
+*
+DriveWaitForTime=-1;
+DriveAngleH=180,-0.8;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipWaitForDrive=2;
+ManipAutoTarget=on;
+ManipWaitForBalls=3,-1;
+ManipAutoTarget=off;
+ManipEnd=;
