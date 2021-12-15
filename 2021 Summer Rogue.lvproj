@@ -129,7 +129,7 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipWaitForDistance.vi" Type="VI" URL="../ManipWaitForDistance.vi"/>
 				<Item Name="ManipWaitForDrive.vi" Type="VI" URL="../ManipWaitForDrive.vi"/>
 				<Item Name="ManipWaitForTime.vi" Type="VI" URL="../ManipWaitForTime.vi"/>
-				<Item Name="ManipRainbowDistance.vi" Type="VI" URL="../ManipRainbowDistance.vi"/>
+				<Item Name="ManipLED_Overide.vi" Type="VI" URL="../ManipLED_Overide.vi"/>
 			</Item>
 			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
 			<Item Name="AutoParameterStringToArray.vi" Type="VI" URL="../AutoParameterStringToArray.vi"/>

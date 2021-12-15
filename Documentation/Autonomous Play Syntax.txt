@@ -169,9 +169,10 @@ ManipPrespin=param1;
 
 -----------------------------------------------------------
 
-ManipRainbowDistance=param1;
-# This VI turns on or off the RainbowDistance LED mode
+ManipLED_Overide=param1;
+# This VI changes the LED mode autonomously.
 
-1. Set to "on" to turn on RainbowDistance LED mode or "off" to turn it off
+1. Set to "distance" to turn on RainbowDistance LED mode, "party" to turn on party LED mode, "debug" to turn on debug LED mode, 
+or "off" to turn it to normal LED mode
 
 -----------------------------------------------------------

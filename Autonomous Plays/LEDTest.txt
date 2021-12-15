@@ -2,12 +2,12 @@ Name: LEDTest
 Starting Location: no restrictions
 Push Start Location (122.64,230.97,0): (509.2, measured distance from your alliance's trench wall, 0 or 180)
 Number of balls to start: 0 - 3 
-What it does: It tests the RainbowDistance function
+What it does: It tests the LED_Overide function
 Revision: 12/09/2021
 Confidence: no
 *
-DrivePath=6,20,-1,Squarz,normal;
+DrivePath=6,20,9000,Squarz,normal;
 DriveEnd=;
 *=;
-ManipRainbowDistance=on;
+ManipLED_Overide=distance;
 ManipEnd=;
